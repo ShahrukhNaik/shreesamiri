@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^shreesamiri\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shreesamiri\.com$
+RewriteRule ^login$ "https\:\/\/www\.google\.co\ m\/a\/shreesamiri\.com" [R=301,L]
+
